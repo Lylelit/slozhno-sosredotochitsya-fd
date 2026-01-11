@@ -3,7 +3,7 @@
 --bg-color: #000028;
 --accent-color: #FF0070;
 --menu-list-color: #FF0070;
---transparent-accent: rgba(255, 0, 112, 0.4); 
+--transparent-accent: rgba(255, 0, 112, 0.4);
 --title-color: #DB00FF;
 --cards-title-text: #FF0070;
 --card-title-text: #000028;
@@ -22,7 +22,7 @@
 }
 
 @media (width >= 768px) {
-  :root { 
+  :root {
   --header-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --margin-start-main-block: 60px;
   --margin-end-section-cards: 80px;
