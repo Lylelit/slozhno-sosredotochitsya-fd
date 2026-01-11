@@ -232,7 +232,7 @@
   .cards__list {
     grid-column: span 2;
     justify-self: end;
-    width: fit-content;    
+    width: fit-content;
     max-width: 472px;
   }
 
