@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  overflow-x: hidden;
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
@@ -242,6 +241,12 @@
   }
 }
 
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gap-cards);
+}
+
 @media (width >= 1024px) {
   .cards__list {
     max-width: 649px;
@@ -292,7 +297,6 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--gap-gallery);
-  padding-inline: var(--padding-main-content);
 }
 
 .gallery__img {
